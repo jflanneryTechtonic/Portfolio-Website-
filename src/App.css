@@ -1,38 +1,194 @@
-.App {
+
+/* Primary Section */
+.primary {
+  background: url(https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.primary-btn {
+  padding-top: 25px;
+}
+
+
+/* Secondary Cards */
+.secondary {
+  background: url(https://images.unsplash.com/photo-1440909921208-2fcbb9e42f7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.iconNav{
+  padding-top: 75px;
+}
+.secondary-card-img{
+  margin-left: 50px;
+  width: 150px;
+  height: 200px;
+  border-radius: 100px;
+}
+.secondary-card-span{
+  color: red;
+}
+.secondary-card-title{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondary-card-body{
+  margin-top: 75px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.secondary-img-div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.secondary-card-body2{
+  margin-top: 75px;
+  margin-left: 20px;
+}
+.secondary-card-text{
+  margin-top: 20px;
+  text-align: center;
+}
+.secondary-progress-title{
+  margin-bottom: 20px;
+  color: darkgray !important;
+}
+
+
+
+
+.thirds {
+  background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1970&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.space-game{
+  width: 900px;
+  height: 700px;
+  margin-top: 50px;
+}
+
+
+.space-div{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+.resume {
+  background: url(https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.about {
+  background: url(https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.textSize{
+  font-size: 50px;
+  margin-right: 40px;
+  text-align: center;
+
+}
+
+.contact {
+  background: url(https://images.unsplash.com/photo-1482005253821-5d6a2c685879?ixlib=rb-1.2.1&auto=format&fit=crop&w=2738&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.contact-form-control{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.contact-form{
+  width: 50%
+}
+.contact-form-title{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.dark-title{
+  color: darkslateblue;
+}
+
+
+.projects { 
+  background: url(https://images.unsplash.com/photo-1577255714682-69db9b067fda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+/* ///////////////////////// */
+
+/* ICONS */
+.home-icon{
+  font-size: 35px;
   color: white;
 }
+.iconSize{
+  font-size: 50px;
+  margin-right: 40px;
+  color: limegreen;
+  text-align: center;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Page tweaks */
+
+.color {
+  color: white;
+}
+.red-name {
+  color: red;
+}
+.green-name{
+  color: limegreen;
+}
+.black-name{
+  color: darkslateblue;
+}
+
+.jumbotron-text {
+  text-align: center;
+}
+div.jumbotron {
+  background: rgba(8, 218, 218, 0.0);
+}
+.jumbo {
+  padding-top: 200px;
+}
+.Jumbo-text{
+  font-size: 50px;
 }
