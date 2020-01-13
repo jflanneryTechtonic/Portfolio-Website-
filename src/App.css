@@ -114,7 +114,7 @@
 }
 
 .contact {
-  background: url(https://images.unsplash.com/photo-1462717585237-7fafe19c5448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80)
+  background: url(https://images.unsplash.com/photo-1482005253821-5d6a2c685879?ixlib=rb-1.2.1&auto=format&fit=crop&w=2738&q=80)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -122,15 +122,17 @@
   background-size: cover;
   height: 100vh;
 }
-.contact-form {
-
-  width: 30vw;
-  margin-left: 35.4vw;
-  margin-top: 100px;
+.contact-form-control{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
-.contact-form-title {
+.contact-form{
+  width: 50%
+}
+.contact-form-title{
   text-align: center;
-  padding-bottom: 40px;
+  padding-top: 100px;
 }
 
 .dark-title{

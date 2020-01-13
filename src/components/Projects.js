@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
-import { FaHome } from 'react-icons/fa';
 
 class Projects extends Component {
   render() {
